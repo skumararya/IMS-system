@@ -1,0 +1,43 @@
+.login-social ul{margin:0;padding:0;list-style:none;list-style-type:none;}
+.login-social ul li{display:inline-block;margin:0 7px;}
+.login-social ul li a{color:#333;}
+.login-social ul li a:hover{color:#1ab394;}
+.login-form-wrap{background:#414f62;color:#fff;padding:80px;}
+.login{padding:0;background:url("../../assets/images/login-bg.png") no-repeat; background-size:cover;}
+.custm-btn{padding:.375rem 2rem;border-radius:20px;}
+.forgot-wrap label,.forgot-wrap a{color:#ccc;}
+.forgot-wrap label input{margin-right:10px;}
+.learn-more a{padding:.375rem 2rem;border-radius:20px;border: 1px solid #f42f53;color: #f42f53;
+    font-size:13px;text-transform: uppercase;display:inline-block;}
+.learn-more a:hover{background: #f42f53;color:#fff;}
+.login-green-text{ 
+    color: #f42f53;
+    text-transform:uppercase;
+    font-size: 0.7rem;
+    margin: 44px 0 15px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    }
+.login-content-sec{display:inline-block;width:100%;}
+.login-content-sec h3{color:#7e8997;}
+.login-social {
+    padding-top: 70px;
+}
+.light-gray {
+    background: #e2e2e2;
+}
+.login-logo {
+    text-align: center;
+}
+.login-logo img {
+    width: 150px;
+    text-align: center;
+}
+.login-content-sec h3 {
+    color: #7e8997;font-size: 16px;
+}
+.icon-bgdark {
+    color: #fff;
+    background: #f42f53!important;
+    border: none;
+}

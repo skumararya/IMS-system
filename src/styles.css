@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{font-family:'open_sansregular';src: url('src/assets/fonts/opensans-regular-webfont.woff2') format('woff2'), url('src/assets/fonts/opensans-regular-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+h2 {
+    font-size: 24px;font-weight: normal;font-family:'open_sansregular';
+}
+body{margin: 0;    font-size: 13px;font-family:'open_sansregular';}
+.pull-right {
+    float: right;
+}
+body{height: 100vh;}
