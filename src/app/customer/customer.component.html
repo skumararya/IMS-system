@@ -1,0 +1,24 @@
+<h1>News</h1>
+ <!-- <ul class="news-list" *ngFor="let news of newsapidata;index as i; ">
+   <li *ngIf= "news.id == 'aftenposten'" > -->
+    <ul class="news-list" >
+    <li *ngFor="let news of newsapidata;index as i; " >
+    <a href="{{news.url}}" target="_blank">
+        <label><span>{{news.name}}</span></label>
+        <p>{{news.description}}</p>
+         </a>
+    </li>
+</ul> 
+<h1>CountryWise News</h1>
+<hr/>
+<ul class="news-list" >
+    <li *ngFor="let articlenews of countrywisenews; " >
+        <h3> {{articlenews.source.name}}
+        </h3>
+        {{articlenews.description}}
+    <!-- <a href="{{news.url}}" target="_blank">
+        <label><span>{{news.name}}</span></label>
+        <p>{{news.description}}</p>
+         </a> -->
+    </li>
+</ul>

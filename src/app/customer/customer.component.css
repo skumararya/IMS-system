@@ -1,0 +1,9 @@
+.news-list{display:flex;flex-wrap: wrap;list-style: none;padding: 0;margin:0;justify-content: space-between;width: 100%;}
+.news-list li{width: 23%;padding: 15px;margin: 10px;border: 1px solid #ccc;margin-bottom: 10px;list-style: none;}
+.news-list li label{
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
